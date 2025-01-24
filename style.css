@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+html {
+    scroll-behavior: smooth; /* Ativa o scroll suave */
+}
+
 body {
     font-family: "Sofia Sans", sans-serif;
 }
@@ -282,7 +286,7 @@ section{
 }
 
 #projetos .container-projetos .projeto .conteudo-projeto .container-button-projeto .button-projeto{
-     background-color: #CF3E00;
+    background-color: #CF3E00;
     font-family: "Sofia Sans", sans-serif;
     font-weight: bold;
     color: #ffffff;
@@ -294,4 +298,92 @@ section{
     border: none;
     border-radius: 10px;
     cursor: pointer;
+}
+
+#projetos .container-projetos .projeto .conteudo-projeto .container-button-projeto .button-projeto:hover{
+    background-color: #e29b7c;
+}
+
+#contato{
+    display: block;
+    background-color: #EDEDED;
+}
+
+#contato h1{
+    font-size: 40px;
+}
+
+#contato form{
+    padding-top: 50px;
+    padding-left: 15%;
+}
+
+#contato form input{
+    width: 969px;
+    padding: 15px;
+    background-color: #ffffff;
+    text-align: left;
+    border: none;
+    border-radius: 5px;
+}
+
+#contato form textarea{
+    background-color: #ffffff;
+    text-align: left;
+    border: none;
+    border-radius: 5px;
+}
+
+#contato form h3{
+    color: #383838;
+    padding-bottom: 15px;
+    padding-top: 15px;
+}
+
+#social{
+    display: flex;
+    padding-top: 2%;
+    padding-bottom: 6%;
+    background-color: #000000;
+    color: #ffffff;
+}
+
+#social .mini-descricao{
+    display: block;
+}
+
+#social .mini-descricao h3{
+    font-size: 30px;
+}
+
+#social .mini-descricao p{
+    font-size: 20px;
+    padding-top: 10px;
+}
+
+#social .contatos{
+    padding-left: 50%;
+}
+
+#social .contatos h3{
+    font-size: 30px;
+}
+
+#social .contatos img{
+    padding-top: 10px;
+}
+
+footer{
+    background-color: #000000;
+    font-family: "Sofia Sans", sans-serif;
+    font-size: 16px;
+    color: #ffffff;
+    text-align: center;
+    align-items: center;
+    padding: 10px 15px;
+}
+
+footer span{
+    color: #CF3E00;
+    font-weight: bold;
 }

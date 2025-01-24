@@ -70,7 +70,7 @@
             <div class="skills2">
                 <button class="icon-skill">JAVASCRIPT</button>
                 <button class="icon-skill">PYTHON</button>
-                <button class="icon-skill">REACTNATIVE</button>
+                <button class="icon-skill">REACT NATIVE</button>
                 <button class="icon-skill">MYSQL</button>
                 <button class="icon-skill">GIT</button> 
             </div>
@@ -164,11 +164,46 @@
 
         <section id="contato">
             <h1>CONTATO</h1>
-            <p>Esta é a seção contato!</p>
+
+            <form action="enviar-dados" method="post">
+
+                <h3>nome</h3>
+                <input type="text" name="nome">
+
+                <h3>telefone</h3>
+                <input type="text" name="telefone">
+
+                <h3>email</h3>
+                <input type="email" name="email">
+
+                <h3>mensagem</h3>
+                <textarea class="mensagem-input" name="mensagem" style="width: 969px; height: 422px; padding: 15px; resize: none;"></textarea>
+            </form>
+
+        </section>
+        <section id="social">
+        
+            <div class="mini-descricao">
+                <h3>ISAQUE FERREIRA</h3>
+                <p>
+                        Designer e desenvolvedor. 
+                        Criação de identidade visual, usabilidade <br>
+                        e desenvolvimento de interfaces para
+                        web e mobile.
+                </p>
+            </div>
+            <div class="contatos">
+                <h3>SOCIAL</h3>
+                <div class="icones-contato">
+                    <img src="/imgs/img_github.png" alt="Icone Github">
+                    <img src="/imgs/img_linkedin.png" alt="Icone Linkedin">
+                </div>
+            </div>
         </section>
     </main>
+
     <footer>
-        <p>Este é o rodapé do site. Desenvolvido por Isaque Ferreira</p>
+        <p>© Copyright 2025. Feito por <span>Isaque Ferreira</span></p>
     </footer>
 </body>
 </html>
